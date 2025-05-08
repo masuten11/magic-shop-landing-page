@@ -1,0 +1,490 @@
+:root {
+  /* Colors */
+  --color-main: hsl(5, 85%, 50%);
+  --color-secondary: hsl(5, 80%, 43%);
+  --color-territary: hsl(255, 80%, 45%);
+  --txt-primary: hsl(220, 70%, 5%);
+  --txt-secondary: hsl(0, 0%, 96%);
+
+  /* Fonts */
+  --header-font: "Orbitron";
+  --para-font: Tahoma;
+  --font-secondary: "Montserrat";
+
+  /* Text Sizes */
+  --txt-2xl: 3.45rem;
+  --txt-xl: 3rem;
+  --txt-l: 2.7rem;
+  --txt-m: 2.35rem;
+  --txt-s: 1.9rem;
+  --txt-dbls: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { font-size: 62.5%; }
+
+body {
+  font-family: var(--font-secondary), var(--header-font), var(--para-font);
+  line-height: 1.63;
+  text-align: center;
+  background-color: var(--txt-secondary);
+  color: var(--txt-primary);
+}
+
+#label-top {
+  font-family: var(--para-font);
+  font-size: var(--txt-dbls);
+  font-weight: 500;
+  background-color: var(--color-territary);
+  color: var(--txt-secondary);
+  padding: 0.7rem 2.1rem;
+  width: 100%;
+  box-shadow: -1px 2px 6px 1.5px hsl(0, 0%, 0%, 0.3);
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+} 
+
+#label-top>div {
+  width: 95%;
+  padding-inline: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#label-top>div>span {
+  text-transform: uppercase;
+  margin-right: 0.7rem;
+}
+
+#label-top>div>button {
+  font-weight: 500;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  padding: 0.9rem 1.7rem;
+  background-color: var(--txt-secondary);
+  color: var(--txt-primary);
+  border: none;
+  border-radius: 1rem;
+}
+
+#label-top>button { background-color: transparent; border: none; }
+#label-top>button>img { height: 1.5rem; width: auto; opacity: 0.77; }
+
+
+/* Header */
+header {
+  padding: 1rem 2.7rem;
+  width: 100%;
+  background-color: var(--txt-secondary);
+  color: var(--txt-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 4.7rem;
+  left: 0;
+}
+
+.logo-container {
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo-icon {
+  max-height: 4.5rem;
+}
+
+#logo-txt {
+  font-family: var(--header-font);
+  font-size: var(--txt-l);
+  font-weight: 900;
+  margin-left: 0.4rem;
+}
+
+header>nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3%;
+}
+
+header>nav>ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 17px;
+}
+
+header>nav>ul>li>a {
+  color: var(--txt-primary);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  font-size: var(--txt-dbls);
+  font-weight: bold;
+  letter-spacing: -0.2px;
+}
+
+header >img {
+  max-height: 2.4rem;
+  width: auto;
+}
+
+header>img:first-of-type {
+  margin-left: 7%;
+}
+
+header>button {
+  background-color: var(--color-territary);
+  color: var(--txt-secondary);
+  padding: 0.8rem 1.7rem;
+  border: none;
+  border-radius: 1.2rem;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+
+main {
+  padding: 2rem 4.7rem;
+}
+
+/* Hero */
+.hero {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  max-height: 64vh;
+  background-color: black;
+  background-image: url('Media/fairytale-scene-coming-out-book.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero > div:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+
+#hero-title {
+  color: hsl(0, 90%, 43%);
+  font-family: var(--header-font);
+  font-weight: 900;
+  font-size: var(--txt-2xl);
+  margin-bottom: 1rem;
+  position: relative;
+  text-shadow: -1px 1px 7px hsl(0, 0%, 5%, 0.7);
+}
+
+#hero-subtitle {
+  color: var(--txt-secondary);
+  font-family: var(--para-font);
+  font-weight: 500;
+  font-size: var(--txt-s);
+  margin-bottom: 1rem;
+  position: relative;
+  text-shadow: -1px 1px 5px hsl(0, 0%, 5%, 0.8);
+}
+
+.hero-banners {
+  width: 100%;
+  padding-inline: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  position: relative;
+}
+
+
+.hero-banners > div:nth-of-type(1) {
+  color: var(--txt-secondary);
+  font-size: var(--txt-s);
+  font-family: var(--para-font);
+  height: 440px;
+  width: 230px;
+  padding-block: 2rem;
+  margin-block: 2.5rem;
+  background-image: url('Media/Joker.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.7rem;
+  text-shadow: -1.35px 1.2px 0.7px red;
+  box-shadow: 1.3px -1.5px 7px 3px hsl(0, 0%, 0%, 0.27);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero-banners > div:nth-of-type(2) {
+  color: var(--txt-secondary);
+  font-size: var(--txt-s);
+  font-family: var(--para-font);
+  height: 440px;
+  width: 230px;
+  padding-block: 2rem;
+  margin-block: 2.5rem;
+  background-image: url('Media/download\ \(3\).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.7rem;
+  text-shadow: 1.4px 1.23px 0.7px hsl(280, 90%, 55%);
+  box-shadow: 1.3px -1.5px 7px 3px hsl(0, 0%, 0%, 0.27);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero-banners > div:nth-of-type(3) {
+  color: var(--txt-secondary);
+  font-size: var(--txt-s);
+  font-family: var(--para-font);
+  height: 440px;
+  width: 230px;
+  padding-block: 2rem;
+  margin-block: 2.5rem;
+  background-image: url('Media/Hand\ of\ glory_.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.7rem;
+  text-shadow: -1.35px 1.2px 0.7px hsl(290, 95%, 45%);
+  box-shadow: 1.3px -1.5px 7px 3px hsl(0, 0%, 0%, 0.27);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero-banners > div:nth-of-type(4) {
+  color: var(--txt-secondary);
+  font-size: var(--txt-s);
+  font-family: var(--para-font);
+  height: 440px;
+  width: 230px;
+  padding-block: 2rem;
+  margin-block: 2.5rem;
+  background-image: url('Media/download\ \(2\).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.7rem;
+  text-shadow: 1.4px 1.23px 0.7px hsl(110, 90%, 40%);
+  box-shadow: 1.3px -1.5px 7px 3px hsl(0, 0%, 0%, 0.27);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero>h3:last-of-type {
+  color: var(--color-secondary);
+  font-size: var(--txt-dbls);
+  padding-inline: 13rem; 
+  margin-block: 0.7rem 2rem;
+}
+
+
+
+/* Product Section */
+.products-container {
+  margin-top: 25%;
+  padding: 2.5rem 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Aside Bar */
+.products-container > aside {
+  padding: 1rem;
+  font-size: 1.65rem;
+  font-family: var(--font-secondary);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.products-container > aside > input:nth-of-type(1) {
+  background-color: hsl(270, 17%, 95%);
+  width: 28rem;
+  padding: 0.5rem 0.23rem 0.4rem 1rem;
+  border: 1.7px solid black;
+  border-radius: 7px;
+}
+
+.products-container > aside > h4 {
+  font-weight: 800;
+  font-size: var(--txt-s);
+  letter-spacing: 0.2px;
+  margin-block: 2.5rem 1.3rem;
+}
+
+#product-list {
+  list-style-type: none;
+  font-size: var(--txt-dbls);
+  font-weight: 600;
+  font-size: -0.3px;
+  color: hsl(0, 0%, 13%);
+}
+
+#product-list > li {
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#product-list > li > span {
+  background-color: hsl(255, 95%, 65%);
+  padding: 0.4rem;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#product-list > li > span > img {
+  height: 1.5rem;
+  width: auto;
+}
+
+.products-container > aside > .subjects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.products-container > aside > .subjects > input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.products-container > aside > .subjects > label {
+  font-size: var(--txt-dbls);
+  font-weight: 600;
+  color: hsl(0, 0%, 13%);
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.products-container > aside > button {
+  width: 100%;
+  padding-block: 1.5rem;
+  margin-block: 2rem;
+  background-color: var(--color-territary);
+  color: var(--txt-secondary);
+  border: none;
+  border-radius: 20px;
+  box-shadow: -1px 1px 7px 1.5px hsl(0, 0%, 0%, 0.25);
+  display: block;
+}
+
+.products-container > aside > button:nth-of-type(2) {
+  margin-top: -0.5rem;
+  background-color: hsl(0, 0%, 25%);
+}
+
+
+/* Product Items */
+.product-items {
+  padding: 4rem;
+  margin-top: -5%;
+  text-align: end;
+}
+
+.product-items > h2 {
+  color: var(--color-secondary);
+  font-family: var(--header-font);
+  font-weight: 900;
+  font-size: var(--txt-m);
+}
+
+.product-items > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 3.5%;
+}
+
+.product-items > div:first-of-type > p {
+  font-size: var(--txt-dbls);
+  font-weight: 700;
+}
+
+.product-items > div:first-of-type > select {
+  background-color: hsl(270, 17%, 95%);
+  padding: 1.1rem;
+  border: 1.7px solid black;
+  border-radius: 5px;
+}
+
+
+/* Items Grid */
+.items-grid {
+  color: var(--txt-primary);
+  margin-top: 0.2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.items-grid > div {
+  margin-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items-grid > div > h3 {
+  font-size: var(--txt-m);
+}
+
+.items-grid > div > p {
+  margin-block: 1.8rem 0.1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+
+.items-grid > div > img {
+  border: 2px solid var(--color-secondary);
+  height: 22rem;
+}
+
+.items-grid > div > button {
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.8rem 1.7rem;
+  margin-top: 1rem;
+  background-color: var(--color-territary);
+  color: var(--txt-secondary);
+  border: none;
+  border-radius: 15px;
+}
