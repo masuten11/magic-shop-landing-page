@@ -4,39 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planet Magic Landing Page</title>
+  <title>Magic Shop Landing Page</title>
+
+  <!-- Font optimization: Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Open+Sans:wght@300;400;600;700&family=Orbitron:wght@400;700;900&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <!-- Label Top -->
+
+  <!-- Top Label -->
   <div id="label-top">
     <div>
       <p><span>Free Shipping.</span> Every Product, Every Day.</p>
       <button>Shop Now</button>
     </div>
-
-    <button><img src="Media/x-button.png" alt="cross-icon(404)"></button>
+    <button><img src="Media/x-button.png" alt="Close"></button>
   </div>
 
   <!-- Header -->
   <header>
     <div class="logo-container">
-      <img id="logo-icon" src="Media/planet-256.png" alt="logo-icon(404)">
+      <img id="logo-icon" src="Media/planet-256.png" alt="Planet Magic Logo">
       <h3 id="logo-txt">Planet Magic</h3>
     </div>
 
     <nav>
-      <ul>
+      <ul class="nav-list">
         <li><a href="#">Magic Shop</a></li>
         <li><a href="#">Magic Clubs</a></li>
         <li><a href="#">Magic Creates</a></li>
@@ -44,90 +41,113 @@
       </ul>
     </nav>
 
-    <img src="Media/shop.png" alt="shopping-icon(404)">
-    <img src="Media/search.png" alt="search-icon(404)">
-    <button>Contact</button>
-    <button>My Account</button>
-  </header>
+    <div class="header-actions">
+      <img class="header-icon" src="Media/shop.png" alt="Shopping Cart">
+      <img class="header-icon" src="Media/search.png" alt="Search">
+      <button class="btn">Contact</button>
+      <button class="btn">My Account</button>
+    </div>
 
+    <button class="hamburger-menu">☰</button>
+  </header>
 
   <main>
     <!-- Hero -->
-    <div class="hero">
-      <div></div>
-      <h1 id="hero-title">Online Magic Shop</h1>
-      <h3 id="hero-subtitle">Unleash the Possibilities of Your Magic</h3>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 id="hero-title">Online Magic Shop</h1>
+        <h3 id="hero-subtitle">Unleash the Possibilities of Your Magic</h3>
 
-      <div class="hero-banners">
-        <div>
-          <h3>Magic Tricks</h3>
+        <div class="hero-banners">
+          <div class="hero-banner banner-tricks">
+            <div>
+              <h3>Magic Tricks</h3>
+            </div>
+          </div>
+          <div class="hero-banner banner-power">
+            <div>
+              <h3>Power Packs</h3>
+            </div>
+          </div>
+          <div class="hero-banner banner-crave">
+            <div>
+              <h3>Build Your Magic Crave</h3>
+            </div>
+          </div>
+          <div class="hero-banner banner-crates">
+            <div>
+              <h3>Magic Crates</h3>
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>Power Packs</h3>
-        </div>
-        <div>
-          <h3>Build Your Magic Crave</h3>
-        </div>
-        <div>
-          <h3>Magic Crates</h3>
-        </div>
+
+        <h3 class="hero-description">Planet Magic is a one-stop magic shop online for magicians of all ages and skill
+          levels. We offer an extensive collection of products to amaze and astound your audience.</h3>
       </div>
+    </section>
 
-      <h3>Planet Magic is a one-stop magic shop online for magicians of all ages and skill levels. We offer an extensive
-        collection of products to amaze and astound your audience.</h3>
-    </div>
 
-    <!-- Products & Search List -->
+    <!-- Products Section -->
     <div class="products-container">
-      <aside>
-        <input type="text" name="search" id="search" placeholder="Search to find products...">
+      <aside class="products-sidebar">
+        <input type="text" name="search" id="search" class="search-input" placeholder="Search to find products...">
 
-        <h4>Categories</h4>
-        <ul id="product-list">
-          <li>Exclusive <span><img src="Media/reverbnation-logo.png" alt=""></span> </li>
-          <li>Magic Tricks</li>
-          <li>Magic Power Packs</li>
-          <li>Magic Carpets</li>
-          <li>Playing Cards</li>
-          <li>Books</li>
-          <li>DVDs</li>
-          <li>Digital Contents</li>
-          <li>At the table live lectures</li>
-          <li>Puzzles, Toys & Games</li>
-          <li>Accessories</li>
+        <h4 class="sidebar-heading">Categories</h4>
+        <ul class="product-list">
+          <li class="product-list-item">Exclusive <span class="exclusive-tag"><img src="Media/reverbnation-logo.png"
+                alt=""></span></li>
+          <li class="product-list-item">Magic Tricks</li>
+          <li class="product-list-item">Magic Power Packs</li>
+          <li class="product-list-item">Magic Carpets</li>
+          <li class="product-list-item">Playing Cards</li>
+          <li class="product-list-item">Books</li>
+          <li class="product-list-item">DVDs</li>
+          <li class="product-list-item">Digital Contents</li>
+          <li class="product-list-item">At the table live lectures</li>
+          <li class="product-list-item">Puzzles, Toys & Games</li>
+          <li class="product-list-item">Accessories</li>
         </ul>
 
-        <h4>Subjects</h4>
+        <h4 class="sidebar-heading">Subjects</h4>
         <div class="subjects">
-          <label for="card-tricks"><input type="checkbox" name="subjects" id="card-tricks"> Card Tricks</label>
-
-          <label for="manipulation"><input type="checkbox" name="subjects" id="manipulation"> Manipulation</label>
-
-          <label for="money-tricks"><input type="checkbox" name="subjects" id="money-tricks"> Money Tricks</label>
-
-          <label for="street-magic"><input type="checkbox" name="subjects" id="street-magic"> Street Magic</label>
-
-          <label for="biology"><input type="checkbox" name="subjects" id="biology"> Biology</label>
-
-          <label for="chemistry"><input type="checkbox" name="subjects" id="chemistry"> Chemistry</label>
-
-          <label for="dinosaurs"><input type="checkbox" name="subjects" id="dinosaurs"> Dinosaurs</label>
-
-          <label for="earth-science"><input type="checkbox" name="subjects" id="earth-science"> Earth Science</label>
+          <label class="subject-label" for="card-tricks">
+            <input type="checkbox" name="subjects" id="card-tricks"> Card Tricks
+          </label>
+          <label class="subject-label" for="manipulation">
+            <input type="checkbox" name="subjects" id="manipulation"> Manipulation
+          </label>
+          <label class="subject-label" for="money-tricks">
+            <input type="checkbox" name="subjects" id="money-tricks"> Money Tricks
+          </label>
+          <label class="subject-label" for="street-magic">
+            <input type="checkbox" name="subjects" id="street-magic"> Street Magic
+          </label>
+          <label class="subject-label" for="biology">
+            <input type="checkbox" name="subjects" id="biology"> Biology
+          </label>
+          <label class="subject-label" for="chemistry">
+            <input type="checkbox" name="subjects" id="chemistry"> Chemistry
+          </label>
+          <label class="subject-label" for="dinosaurs">
+            <input type="checkbox" name="subjects" id="dinosaurs"> Dinosaurs
+          </label>
+          <label class="subject-label" for="earth-science">
+            <input type="checkbox" name="subjects" id="earth-science"> Earth Science
+          </label>
         </div>
 
-
-        <button>View Cart</button>
-        <button>Checkout</button>
+        <button class="cart-btn">View Cart</button>
+        <button class="cart-btn checkout-btn">Checkout</button>
       </aside>
 
       <div class="product-items">
-        <h2>Magic Shop</h2>
-        
-        <div>
-          <p>Showing 1-15 of 3720 results</p>
+        <h2 class="product-heading">Magic Shop</h2>
 
-          <select name="sort" id="sort">
+        <div class="product-items-header">
+          <p class="results-text">Showing 1-15 of 3720 results</p>
+
+          <select name="sort" id="sort" class="sort-select">
             <option value="default">Default Sorting</option>
             <option value="popularity">Sort By Popularity</option>
             <option value="price-low">Sort By Price: Low to high</option>
@@ -136,162 +156,161 @@
         </div>
 
         <div class="items-grid">
-          <div id="item-1">
-            <img src="Media/item3.jfif" alt="(404)">
-            <p id="item-details">Oceanland Spree for Plants - 0.5L</p>
-            <h3 id="Price">17$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item3.jfif" alt="Magic Item">
+            <p class="item-details">Oceanland Spree for Plants - 0.5L</p>
+            <h3 class="item-price">17$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-2">
-            <img src="Media/item1.jfif" alt="(404)">
-            <p id="item-details">Solid Black Magic Rolball Golden for New Magicians- 20kg</p>
-            <h3 id="Price">40$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item1.jfif" alt="Magic Item">
+            <p class="item-details">Solid Black Magic Rolball Golden for New Magicians- 20kg</p>
+            <h3 class="item-price">40$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-3">
-            <img src="Media/item5.jfif" alt="(404)">
-            <p id="item-details">Tao Ching Theme Mini Wooden Drawer</p>
-            <h3 id="Price">25$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item5.jfif" alt="Magic Item">
+            <p class="item-details">Tao Ching Theme Mini Wooden Drawer</p>
+            <h3 class="item-price">25$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-4">
-            <img src="Media/item2.jfif" alt="(404)">
-            <p id="item-details">Magic Books for Kids - 70 pages</p>
-            <h3 id="Price">7$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item2.jfif" alt="Magic Item">
+            <p class="item-details">Magic Books for Kids - 70 pages</p>
+            <h3 class="item-price">7$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-5">
-            <img src="Media/item4.jfif" alt="(404)">
-            <p id="item-details">Harmless Fire Spell - 20hrs</p>
-            <h3 id="Price">100$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item4.jfif" alt="Magic Item">
+            <p class="item-details">Harmless Fire Spell - 20hrs</p>
+            <h3 class="item-price">100$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-6">
-            <img src="Media/item6.jfif" alt="(404)">
-            <p id="item-details">Candle Handler Snake - 2i</p>
-            <h3 id="Price">5$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item6.jfif" alt="Magic Item">
+            <p class="item-details">Candle Handler Snake - 2i</p>
+            <h3 class="item-price">5$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-7">
-            <img src="Media/item7.jfif" alt="(404)">
-            <p id="item-details">Black Denim Owl Journal - 200 pages</p>
-            <h3 id="Price">31$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item7.jfif" alt="Magic Item">
+            <p class="item-details">Black Denim Owl Journal - 200 pages</p>
+            <h3 class="item-price">31$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-8">
-            <img src="Media/item8.jfif" alt="(404)">
-            <p id="item-details">Black Denim Black Panther Journal - 220 pages</p>
-            <h3 id="Price">35$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item8.jfif" alt="Magic Item">
+            <p class="item-details">Black Denim Black Panther Journal - 220 pages</p>
+            <h3 class="item-price">35$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-9">
-            <img src="Media/item9.jfif" alt="(404)">
-            <p id="item-details">Planet Protected Accessory Set - 11i</p>
-            <h3 id="Price">28$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item9.jfif" alt="Magic Item">
+            <p class="item-details">Planet Protected Accessory Set - 11i</p>
+            <h3 class="item-price">28$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-10">
-            <img src="Media/item10.jfif" alt="(404)">
-            <p id="item-details">Mana Booster Card - 20i</p>
-            <h3 id="Price">150$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item10.jfif" alt="Magic Item">
+            <p class="item-details">Mana Booster Card - 20i</p>
+            <h3 class="item-price">150$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-11">
-            <img src="Media/item11.jfif" alt="(404)">
-            <p id="item-details">Cute Magic Journal - 100 pages</p>
-            <h3 id="Price">70$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item11.jfif" alt="Magic Item">
+            <p class="item-details">Cute Magic Journal - 100 pages</p>
+            <h3 class="item-price">70$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
 
-          <div id="item-12">
-            <img src="Media/item12.jfif" alt="(404)">
-            <p id="item-details">Electric Heating Plate for Magic | Damage & Water Proof</p>
-            <h3 id="Price">41$</h3>
-            <button>Add to Cart</button>
+          <div class="item-card">
+            <img class="item-image" src="Media/item12.jfif" alt="Magic Item">
+            <p class="item-details">Electric Heating Plate for Magic | Damage & Water Proof</p>
+            <h3 class="item-price">41$</h3>
+            <button class="add-to-cart">Add to Cart</button>
           </div>
-
         </div>
       </div>
-
     </div>
   </main>
 
-  <footer>
-     <div class="bottom-hero">
-      <div></div>
 
-      <h1>Whether you’re a skilled magician or just beginning your magic journey, our online magic store has what you need to strengthen and elevate your craft.</h1>
-      <h3>Get monthly updates and exclusive offers from Planet Magic.</h3>
-      <button>Subscribe to Our Newsletter</button>
+  <!-- Footer -->
+  <footer>
+    <div class="bottom-hero">
+      <div class="bottom-hero-overlay"></div>
+      <div class="bottom-hero-content">
+        <h1 class="bottom-hero-title">Whether you're a skilled magician or just beginning your magic journey, our online
+          magic store has what you need to strengthen and elevate your craft.</h1>
+        <h3 class="bottom-hero-subtitle">Get monthly updates and exclusive offers from Planet Magic.</h3>
+        <button class="newsletter-btn">Subscribe to Our Newsletter</button>
+      </div>
     </div>
 
     <div class="footer-bottom">
-
-      <div class="footer-bottom-top">
+      <div class="footer-content">
         <div class="contacts">
-          <h2>Planet Magic</h2>
-          <p>PO Box 406, Rochester, NY 14624</p>
-          <p>(345) 780-0123</p>
+          <h2 class="footer-logo">Planet Magic</h2>
+          <p class="address">PO Box 406, Rochester, NY 14624</p>
+          <p class="phone">(345) 780-0123</p>
 
           <div class="social-icons">
-            <img src="Media/instagram.png" alt="(404)">
-            <img src="Media/facebook.png" alt="(404)">
-            <img src="Media/youtube.png" alt="(404)">
-            <img src="Media/twitter.png" alt="(404)">
+            <img class="social-icon" src="Media/instagram.png" alt="Instagram">
+            <img class="social-icon" src="Media/facebook.png" alt="Facebook">
+            <img class="social-icon" src="Media/youtube.png" alt="YouTube">
+            <img class="social-icon" src="Media/twitter.png" alt="Twitter">
           </div>
-          <button>Contact Us</button>
+          <button class="contact-btn">Contact Us</button>
         </div>
 
         <div class="footer-navigation">
-          <h4>Shop by category</h4>
-          <hr />
+          <h4 class="footer-heading">Shop by category</h4>
+          <hr class="footer-divider">
 
-          <ul>
-            <li>Magic Tricks</li>
-            <li>Books</li>
-            <li>DVDs</li>
-            <li>Magic Power Packs</li>
-            <li>Magic Carpets</li>
-            <li>Playing Cards</li>
-            <li>Books</li>
+          <ul class="footer-links">
+            <li class="footer-link">Magic Tricks</li>
+            <li class="footer-link">Books</li>
+            <li class="footer-link">DVDs</li>
+            <li class="footer-link">Magic Power Packs</li>
+            <li class="footer-link">Magic Carpets</li>
+            <li class="footer-link">Playing Cards</li>
+            <li class="footer-link">Books</li>
           </ul>
 
-          <h4>Magic Crates</h4>
-          <hr />
+          <h4 class="footer-heading">Magic Crates</h4>
+          <hr class="footer-divider">
 
-          <ul>
-            <li>Advanced Magicians Crate</li>
-            <li>Begginers Magicians Crate</li>
-            <li>Teen Magicians Crate</li>
-            <li>How it Actully Works</li>
+          <ul class="footer-links">
+            <li class="footer-link">Advanced Magicians Crate</li>
+            <li class="footer-link">Begginers Magicians Crate</li>
+            <li class="footer-link">Teen Magicians Crate</li>
+            <li class="footer-link">How it Actully Works</li>
           </ul>
         </div>
 
         <div class="footer-buttons">
-          <button>Magic Club Academy</button>
-          <button>Buid your Magic Cave</button>
-          <button>Join Our Newsletter</button>
+          <button class="footer-btn">Magic Club Academy</button>
+          <button class="footer-btn">Buid your Magic Cave</button>
+          <button class="footer-btn">Join Our Newsletter</button>
         </div>
       </div>
 
-
-      <div class="footer-bottom-bottom">
-        <p><a href="#">Privacy Policy</a> | Terms of Use  ©2025 Planet Magic. All Rights Reserved.</p>
+      <div class="copyright">
+        <p><a href="#">Privacy Policy</a> | Terms of Use ©2025 Planet Magic. All Rights Reserved.</p>
         <p>Website Design and Digital Marketing by <span>@Masuten11</span>.</p>
       </div>
-
     </div>
   </footer>
-
 </body>
+
 </html>
