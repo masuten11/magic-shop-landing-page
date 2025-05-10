@@ -3,27 +3,27 @@
 
 
 ## Online Magic Shop Landing Page
-[Visit Live Site](https://yourusername.github.io/planet-magic) | [Report Bug](https://github.com/yourusername/planet-magic/issues) | [Request Feature](https://github.com/yourusername/planet-magic/issues)
+[Visit Live Site](https://yourusername.github.io/planet-magic) | [Report Bug](https://github.com/masuten11/magic-shop-landing-page/issues) | [Request Feature](https://github.com/masuten11/magic-shop-landing-page/issues)
 
 ## ✨ Features
 - **A very basic layout indeed. Feel free to add new features, add add interectivity or update the existing ones!
 
 ## 🖼️ Screenshots
-![Homepage](screenshots/homepage.png)
-![Product Gallery](screenshots/product-gallery.png)
-![Magic Categories](screenshots/categories.png)
+![Number-1](screenshots/Planet%20Magic%20Shop%20_%20Masum%20Billah_page-0001.jpg)
+![Number-2](screenshots/Planet%20Magic%20Shop%20_%20Masum%20Billah_page-0002.jpg)
+![Number-3](screenshots/Planet%20Magic%20Shop%20_%20Masum%20Billah_page-0003.jpg)
 
 
 ## 🛠️ Built With
 - HTML5
 - CSS3
 - Custom UI components
-- Google Fonts (Orbitron, Montserrat, Open Sans)
+- Google Fonts (Orbitron, Montserrat, Open Sans, Tahoma)
 
 
 ## 🚀 Getting Started
-
 To get a local copy up and running, follow these simple steps:
+
 1. Clone the repo
    ```sh
    git clone https://github.com/yourusername/planet-magic.git
@@ -38,7 +38,7 @@ To get a local copy up and running, follow these simple steps:
 - [ ] Create product detail pages.
 - [ ] Any thing else you do wish.
 
-See the [open issues](https://github.com/yourusername/planet-magic/issues) for a full list of proposed features and known issues.
+See the [open issues](https://github.com/masuten11/magic-shop-landing-page/issues) for a full list of proposed features and known issues.
 
 
 ## 🤝 Contributing Together
@@ -51,11 +51,11 @@ Contributions make the open-source community an amazing place to learn, inspire,
 
 
 ## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License circumstances. See `LICENSE` for more information.
 
 ## 📞 Contact
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-Project Link: [https://github.com/yourusername/planet-magic](https://github.com/yourusername/planet-magic)
+Your Name - [@Masuten11](https://x.com/Masuten11?t=P0pK6Iiiv_AfIkPr26q71Q&s=03) - email@example.com - [@Masuten11](https://www.facebook.com/share/1JMzZiErLf/)
+Project Link: [https://github.com/masuten11/magic-shop-landing-page](https://github.com/masuten11/magic-shop-landing-page)
 
 ## 🙏 Acknowledgments
 * [Font Awesome](https://fontawesome.com) for icons
