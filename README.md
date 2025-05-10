@@ -9,9 +9,9 @@
 - **A very basic layout indeed. Feel free to add new features, add add interectivity or update the existing ones!
 
 ## 🖼️ Screenshots
-![Number-1](screenshots/Planet-magic01.jpg)
-![Number-2](screenshots/Planet-magic02.jpg)
-![Number-3](screenshots/Planet-magic03.jpg)
+![Number-1](Screenshots/Planet-magic01.jpg)
+![Number-2](Screenshots/Planet-magic02.jpg)
+![Number-3](Screenshots/Planet-magic03.jpg)
 
 
 ## 🛠️ Built With
@@ -54,7 +54,7 @@ Contributions make the open-source community an amazing place to learn, inspire,
 Distributed under the MIT License circumstances. See `LICENSE` for more information.
 
 ## 📞 Contact
-Your Name - [@Masuten11](https://x.com/Masuten11?t=P0pK6Iiiv_AfIkPr26q71Q&s=03) - mbn396@example.com - [@Masuten11](https://www.facebook.com/share/1JMzZiErLf/)
+Your Name - [@Masuten11](https://x.com/Masuten11?t=P0pK6Iiiv_AfIkPr26q71Q&s=03) - mbn396@gmail.com - [@Masuten11](https://www.facebook.com/share/1JMzZiErLf/)
 Project Link: [https://github.com/masuten11/magic-shop-landing-page](https://github.com/masuten11/magic-shop-landing-page)
 
 ## 🙏 Acknowledgments
