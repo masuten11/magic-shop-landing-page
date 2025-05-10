@@ -9,9 +9,9 @@
 - **A very basic layout indeed. Feel free to add new features, add add interectivity or update the existing ones!
 
 ## 🖼️ Screenshots
-![Number-1](screenshots/Planet%20Magic%20Shop%20_%20Masum%20Billah_page-0001.jpg)
-![Number-2](screenshots/Planet%20Magic%20Shop%20_%20Masum%20Billah_page-0002.jpg)
-![Number-3](screenshots/Planet%20Magic%20Shop%20_%20Masum%20Billah_page-0003.jpg)
+![Number-1](screenshots/Planet-magic01.jpg)
+![Number-2](screenshots/Planet-magic02.jpg)
+![Number-3](screenshots/Planet-magic03.jpg)
 
 
 ## 🛠️ Built With
