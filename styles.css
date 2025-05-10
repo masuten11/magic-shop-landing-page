@@ -101,7 +101,7 @@ button {
   font-weight: 600;
 }
 
-#label-top> button {
+#label-top button {
   font-weight: 500;
   font-family: var(--font-secondary);
   font-weight: bold;
