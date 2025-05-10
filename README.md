@@ -3,7 +3,7 @@
 
 
 ## Online Magic Shop Landing Page
-[Visit Live Site](https://yourusername.github.io/planet-magic) | [Report Bug](https://github.com/masuten11/magic-shop-landing-page/issues) | [Request Feature](https://github.com/masuten11/magic-shop-landing-page/issues)
+[Visit Live Site](https://masuten11.github.io/magic-shop-landing-page) | [Report Bug](https://github.com/masuten11/magic-shop-landing-page/issues) | [Request Feature](https://github.com/masuten11/magic-shop-landing-page/issues)
 
 ## ✨ Features
 - **A very basic layout indeed. Feel free to add new features, add add interectivity or update the existing ones!
@@ -26,7 +26,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/yourusername/planet-magic.git
+   git clone https://github.com/masuten11/magic-shop-landing-page.git
    ```
 2. Open `index.html` in your browser
 
@@ -54,7 +54,7 @@ Contributions make the open-source community an amazing place to learn, inspire,
 Distributed under the MIT License circumstances. See `LICENSE` for more information.
 
 ## 📞 Contact
-Your Name - [@Masuten11](https://x.com/Masuten11?t=P0pK6Iiiv_AfIkPr26q71Q&s=03) - email@example.com - [@Masuten11](https://www.facebook.com/share/1JMzZiErLf/)
+Your Name - [@Masuten11](https://x.com/Masuten11?t=P0pK6Iiiv_AfIkPr26q71Q&s=03) - mbn396@example.com - [@Masuten11](https://www.facebook.com/share/1JMzZiErLf/)
 Project Link: [https://github.com/masuten11/magic-shop-landing-page](https://github.com/masuten11/magic-shop-landing-page)
 
 ## 🙏 Acknowledgments
